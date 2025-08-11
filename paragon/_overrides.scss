@@ -1,7 +1,7 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 body, .text-monospace, * {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Mulish for Safearth', 'Helvetica Neue', Helvetica, Arial, system-ui, 'Segoe UI', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -392,6 +392,30 @@ html {
         }
     }
 }
+
+// -- Safearth Modifications ---
+// Header logo size change.
+#root header.site-header-desktop .logo img {
+    height: 40px;
+}
+
+// authn 'login / signup / password reset' form modifications.
+#sign-in-form>*:not(div:last-of-type) {
+    display: none;
+}
+
+a#controlled-tab-tab-\/register {
+    display: none;
+}
+
+form#forget-password-form {
+    display: none;
+}
+
+form#registration-form {
+    display: none;
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";

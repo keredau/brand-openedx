@@ -1,5 +1,5 @@
-$primary: #15376D;
-$brand: #15376D;
+$primary: #006298;
+$brand: #006298;
 $primary-light: #F2F7F8;
 $light-dark: #374151;
 $text-color: #111827;
@@ -12,3 +12,5 @@ $light-theme-switch-bg-color: #1D386A;
 $page-color-transition: transparent .2s ease, color .2s ease;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+// -- Safearth Modifications ---
+@import url('https://cdn.safearth.net/public/site-files/fonts/safearth-mulish.css');
