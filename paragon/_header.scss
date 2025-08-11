@@ -226,6 +226,14 @@
                 }
             }
         }
+        // -- Safearth Modifications ---
+        // Header size changes
+        .logo {
+            padding: 0 !important;
+            img {
+                height: 40px !important;
+            }
+        }
     }
     header.customise.learning-header {
         z-index: 30;

@@ -157,6 +157,24 @@
                     font-weight: 500;
                     line-height: 30px;
                 }
+
+                // --- Safearth Modifications --
+                // authn 'login / signup / password reset' form modifications
+                #sign-in-form>*:not(div:last-of-type) {
+                    display: none;
+                }
+
+                a#controlled-tab-tab-\/register {
+                    display: none;
+                }
+
+                form#forget-password-form {
+                    display: none;
+                }
+
+                form#registration-form {
+                    display: none;
+                }
             }
         }
      }
