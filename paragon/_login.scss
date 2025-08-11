@@ -119,6 +119,11 @@
                         border-bottom: 2px solid $primary;
                     }
                 }
+                
+                // --- Safearth Modification --
+                a#controlled-tab-tab-\/register {
+                    display: none;
+                }
             }
             #main-content {
                 min-width: 100px !important;
@@ -161,10 +166,6 @@
                 // --- Safearth Modifications --
                 // authn 'login / signup / password reset' form modifications
                 #sign-in-form>*:not(div:last-of-type) {
-                    display: none;
-                }
-
-                a#controlled-tab-tab-\/register {
                     display: none;
                 }
 
