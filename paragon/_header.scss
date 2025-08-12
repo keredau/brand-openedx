@@ -297,6 +297,14 @@
             padding-top: 0 !important;
             padding-bottom: 0 !important;
         }
+        // -- Safearth Modifications ---
+        // Header size changes
+        .logo {
+            padding: 0 !important;
+            img {
+                height: 40px !important;
+            }
+        }
     }
     .user-dropdown {
         @include media-breakpoint-down(md) {
