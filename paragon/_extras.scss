@@ -1,11 +1,12 @@
 // theme toggle button
 
-.theme-toggle-button{
+.theme-toggle-button {
     position: relative;
     display: flex;
     align-items: center;
 
-    .light-theme-icon > span, .dark-theme-icon > span{
+    .light-theme-icon>span,
+    .dark-theme-icon>span {
         width: 18px;
         color: $primary;
     }
@@ -18,7 +19,7 @@
             margin: 0
         }
 
-/* The switch - the box around the slider */
+        /* The switch - the box around the slider */
         .switch {
             position: relative;
             display: inline-block;
@@ -32,10 +33,10 @@
                 height: 0;
 
                 &:focus {
-                  ~ .slider {
-                    outline: 2px solid $primary;
-                    outline-offset: 1px;
-                  }
+                    ~.slider {
+                        outline: 2px solid $primary;
+                        outline-offset: 1px;
+                    }
                 }
             }
 
@@ -50,7 +51,7 @@
                 background-color: $light-theme-switch-bg-color;
                 transition: .4s;
 
-                &::before{
+                &::before {
                     position: absolute;
                     content: "";
                     height: 20px;
@@ -61,9 +62,10 @@
                     transition: .4s;
                 }
 
-                &.round{
+                &.round {
                     border-radius: 34px;
-                    &::before{
+
+                    &::before {
                         border-radius: 50%;
                     }
                 }
@@ -74,8 +76,21 @@
 
 // course title focus visibility styling
 .course-card {
-  .pgn__card-header,
-  .pgn__card-header-content {
-      overflow: visible !important;
-  }
+    .pgn__card-header,
+    .pgn__card-header-content {
+        overflow: visible !important;
+    }
+
+    // --- Safearth Modification --
+    .pgn__card {
+        .course-card-verify-ribbon-container {
+            .badge-success {
+                background-color: $primary;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    }
 }

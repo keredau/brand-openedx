@@ -228,3 +228,12 @@ div[data-learner-type=b2c_learner] {
         }
     }
 }
+
+// --- Safearth Modification --
+.course-list-container {
+    .pgn__card-header {
+        .pgn__card-header-actions {
+            display: none;
+        }
+    }
+}
