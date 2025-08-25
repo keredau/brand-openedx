@@ -86,6 +86,12 @@
         .course-card-verify-ribbon-container {
             .badge-success {
                 background-color: $primary;
+                font-size: 0px;
+            }
+
+            .badge-success::after {
+                content: "Safearth Certified";
+                font-size: 13.5px;
             }
 
             img {
